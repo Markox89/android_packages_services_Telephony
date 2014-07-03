@@ -18,6 +18,9 @@ LOCAL_SRC_FILES += \
         src/org/codeaurora/ims/IImsServiceListener.aidl \
         src/org/codeaurora/btmultisim/IBluetoothDsdaService.aidl
 
+LOCAL_CFLAGS := \
+	-Os
+
 LOCAL_PACKAGE_NAME := TeleService
 
 LOCAL_CERTIFICATE := platform
